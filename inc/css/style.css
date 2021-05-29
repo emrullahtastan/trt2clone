@@ -1,0 +1,7 @@
+body{
+    background-color: lightgrey;
+}
+
+#header{
+    background-image: url('../images/menu-bg.jpg');
+}
