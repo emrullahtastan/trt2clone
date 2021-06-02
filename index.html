@@ -3,35 +3,65 @@
 <head>
     <link href="inc/css/style.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header id="header" class="container">
-        <div id="first-header">
-            <div>
-                <img src="./inc/images/logo.svg" alt="">
+    <header id="header">
+        <div id="first-header" class="container-second">
+            <div style="display: flex;align-items: baseline;">
+                <div>
+                    <img src="./inc/images/logo.svg" alt="">
+                </div>
+                <div>
+                    <ul id="menu">
+                        <li><a href="#">KÜLTÜR</a></li>
+                        <li><a href="#">SANAT</a></li>
+                        <li><a href="#">EDEBİYAT</a></li>
+                        <li><a href="#">FELSEFE</a></li>
+                        <li><a href="#">MÜZİK</a></li>
+                        <li><a href="#">SİNEMA</a></li>
+                        <li><a href="#">TARİH</a></li>
+                    </ul>
+                </div>
             </div>
-            <div>
-                <ul id="menu">
-                    <li><a href="#">KÜLTÜR</a></li>
-                    <li><a href="#">SANAT</a></li>
-                    <li><a href="#">EDEBİYAT</a></li>
-                    <li><a href="#">FELSEFE</a></li>
-                    <li><a href="#">MÜZİK</a></li>
-                    <li><a href="#">SİNEMA</a></li>
-                    <li><a href="#">TARİH</a></li>
-                </ul>
+            <div style="margin-top:10px;">
+                <a href="#" class="button black-button header-button">Yayın Akışı</a>
+                <a href="#" class="button red-button header-button">Canlı Yayın</a>
             </div>
-        </div>
-        <div>
-            <a href="#" class="button black-button header-button">Yayın Akışı</a>
-            <a href="#" class="button red-button header-button">Canlı Yayın</a>
         </div>
 
     </header>
+    <section id="home-hero">
+        <div class="container-second">
+            <div>
+                <h3 class="title">Öne Çıkanlar</h3>
+            </div>
+            <div style="display: flex;">
+                <div class="col-6 text-right">
+                    <div class="hero-first-title">EDEBİYAT</div>
+                    <div class="hero-second-title">Kelimeler ve<br> Şeyler</div>
+                    <div class="hero-third-title">
+                        Aykut Ertuğrul, Furkan Çalışkan ve Erkan Şimşek’in sunuculuğunda gerçekleştirilen, her bölümde haftanın yeni çıkan kitapları, dergileri ve edebiyat odaklı haberleri yorumlayacağı programda keyifli bir sohbet sizleri bekliyor.
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div>
+                        <img src="inc/images/kelimeler-ve-seyler.jpeg" />
+                    </div>
+                    <div>
+                        <a class="hero-button">Bütün Bölümleri Gör</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container-second">
+        abc
+    </div>
+    <div class="container-second">
+        <img src="https://cdn-i.pr.trt.com.tr/trt2/w960/h540/q60/10847342.jpeg" />
+    </div>
 </body>
 
 </html>

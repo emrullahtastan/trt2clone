@@ -1,68 +1,123 @@
-body{
+body {
     background-color: lightgrey;
-    margin:0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
-#header{
+#header {
     background-image: url('../images/menu-bg.jpg');
     display: flex;
     height: 92px;
     align-items: center;
 }
 
-#menu{
+#menu {
     list-style-type: none;
-    color:white;
-    font-family: 'Open Sans', sans-serif;
+    color: white;
 }
 
 #menu li {
     display: inline;
 }
 
-#menu li a{
+#menu li a {
     text-decoration: none;
-    color:white;
-    font-size:18px;
+    color: white;
+    font-size: 18px;
     padding: 0 10px;
     text-shadow: 0 0 1em #000, 0 0 0.2em #000;
 }
 
-.container{
-  justify-content: space-around;
+.container {
+    justify-content: space-around;
 }
 
-#first-header{
-    display:flex;
-    align-items: baseline;
+#first-header {
+    display: flex;
+    align-items: flex-start;
     padding-top: 15px;
+    justify-content: space-between;
 }
 
-.button{
+.button {
     background-color: #e8e8e8;
     border: none;
     padding: 10px 20px;
     border-radius: 2px;
     font-weight: bold;
-    font-family: 'Open Sans', sans-serif;
-    font-size:14px;
-    color:white;
+    font-size: 14px;
+    color: white;
 }
 
-.button[href]{
+.button[href] {
     text-decoration: none;
 }
 
-.black-button{
+.black-button {
     background-color: black;
 }
 
-.red-button{
+.red-button {
     background-color: #fb2040;
 }
 
-.header-button{
+.header-button {
     height: 48px;
     padding: 15px 30px;
-    margin-right:10px;
+    margin-right: 10px;
+}
+
+.container-second {
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#home-hero {
+    background-image: linear-gradient( 180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), linear-gradient( 228deg, #232245, #232245 16%, #001f3b 50%, #250930);
+    color: white;
+    padding: 50px;
+}
+
+.title {
+    color: #9eaeba;
+    margin: 0 0 30px 0;
+    font: 600 26px/1.5 Open Sans, sans-serif;
+}
+
+.col-6 {
+    width: 50%;
+    padding: 10px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.hero-first-title {
+    font: 800 16px/1.5 Open Sans, sans-serif;
+    letter-spacing: 4px;
+}
+
+.hero-second-title {
+    font: 900 64px/80px Vesterbro, serif;
+}
+
+.hero-third-title {
+    font: normal 20px/1.6 Open Sans, sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+.hero-button {
+    background: #007aff;
+    color: #fff;
+    padding: 16px 32px;
+    width: 270px;
+    display: block;
+    border-radius: 4px;
+    font: 600 20px/1.17 Open Sans, sans-serif;
+    text-align: center;
 }
