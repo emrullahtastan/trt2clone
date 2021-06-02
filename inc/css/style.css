@@ -1,7 +1,68 @@
 body{
     background-color: lightgrey;
+    margin:0;
 }
 
 #header{
     background-image: url('../images/menu-bg.jpg');
+    display: flex;
+    height: 92px;
+    align-items: center;
+}
+
+#menu{
+    list-style-type: none;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menu li {
+    display: inline;
+}
+
+#menu li a{
+    text-decoration: none;
+    color:white;
+    font-size:18px;
+    padding: 0 10px;
+    text-shadow: 0 0 1em #000, 0 0 0.2em #000;
+}
+
+.container{
+  justify-content: space-around;
+}
+
+#first-header{
+    display:flex;
+    align-items: baseline;
+    padding-top: 15px;
+}
+
+.button{
+    background-color: #e8e8e8;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 2px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size:14px;
+    color:white;
+}
+
+.button[href]{
+    text-decoration: none;
+}
+
+.black-button{
+    background-color: black;
+}
+
+.red-button{
+    background-color: #fb2040;
+}
+
+.header-button{
+    height: 48px;
+    padding: 15px 30px;
+    margin-right:10px;
 }
